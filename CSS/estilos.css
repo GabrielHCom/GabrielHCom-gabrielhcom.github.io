@@ -226,13 +226,13 @@ background-color: #1f4c68;
       
       .conoceMas .h2p_texto >* {
           display: block;
-          text-align: center !important;
+          text-align:start;
         }
       
         .h2p_texto .boton_conoceMas {
           width: 50%;
           margin: 0 auto;
-          flex-direction: column;
+          flex-direction: column; text-align: center;
         }
       .cont_formulario .Nombre {
           width: 100%;
@@ -262,6 +262,11 @@ background-color: #1f4c68;
           text-align: center;
         }
       
+        .portada .textPortada {
+            width: 70%;
+            text-align: end; margin-right: 0%;
+        }
+
       }
       
 
