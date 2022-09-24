@@ -282,7 +282,7 @@ background-color: #1f4c68;
             flex-direction: column;
             justify-content: flex-start ;
             width: 65%;
-            padding-left: 0%;
+            padding-left: 0%; margin-left: 0;
 
   
         }
@@ -306,7 +306,12 @@ background-color: #1f4c68;
           justify-content: center;
         }
       
+        .A {display: flex; 
+            flex-direction: column;
+            justify-content: flex-start ;
+            width: 65%;
+            padding-left: 0%; margin-left: 0;
       }
 
-
+    }
 
