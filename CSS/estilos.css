@@ -283,7 +283,7 @@ background-color: #1f4c68;
             justify-content: space-around;
   
         }
-        .A .card {width:auto ;   justify-content: center; flex-direction: column; text-align: center;
+        .A .card {width:max-content;   justify-content: center; flex-direction: column; text-align: center;
 
 
         }
