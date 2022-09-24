@@ -208,3 +208,100 @@ background-color: #1f4c68;
 
 .f_container a {color: aliceblue;
     text-decoration: none}
+
+
+    @media(max-width: 768px) {
+        .conoceMas { 
+          display: flex;
+          flex-direction: column;
+        }
+       
+        .conoceMas img {
+;
+        }
+      
+      .conoceMas .h2p_texto >* {
+          display: block;
+          text-align: center !important;
+        }
+      
+        .h2p_texto .boton_conoceMas {
+          width: 50%;
+          margin: 0 auto;
+          flex-direction: column;
+        }
+      .cont_formulario .Nombre {
+          width: 100%;
+          flex-direction: column;
+          justify-content: space-between;
+          margin-bottom: 15px;
+        }
+      
+        .cont_formulario .Nombre .inputN{
+          width: 100%;
+          margin-bottom: 15px;
+        }
+      
+       .cont_formulario {
+          width: 80vw;
+        }
+      
+        .f_container {
+          flex-direction: column;
+          padding: 15px 0;
+          height: 100%;
+         }
+      
+         .f_container a {
+          padding: 10px 0;
+          width: 100%;
+          text-align: center;
+        }
+      
+      }
+      
+
+
+
+
+      @media(max-width: 992px) { 
+
+        .portada .textPortada {
+          width: 100%;
+          margin-bottom: 20vh;
+          text-align: center;}
+        
+      
+        .portada .botones {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+        }
+      
+        .A {display: flex; 
+            flex-direction: column;
+            justify-content: space-around;
+  
+        }
+        .A .card {width: 100%;    justify-content: center;
+
+
+        }
+
+        .cont_formulario {
+          width: 100%px;
+        }
+    }
+
+
+      @media(max-width: 576px) {
+        .portada .botones {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+      
+      }
+
+
+
