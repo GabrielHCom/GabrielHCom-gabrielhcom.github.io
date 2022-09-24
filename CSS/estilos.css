@@ -283,13 +283,12 @@ background-color: #1f4c68;
             justify-content: space-around;
   
         }
-        .A .card {width: 500px;    justify-content: center;
+        .A .card {width: 100%;   justify-content: center; flex-direction: column; text-align: center;
 
 
         }
 
-        .card {justify-content: center;}
-
+      
         .cont_formulario {
           width: 100%px;
         }
