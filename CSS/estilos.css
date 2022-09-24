@@ -280,13 +280,13 @@ background-color: #1f4c68;
       
         .A {display: flex; 
             flex-direction: column;
-            justify-content: flex-start ;
+            justify-content: center ;
             width: 65%;
             padding-left: 0%; margin-left: 0;
 
   
         }
-        .A .card {min-width: 300px;   justify-content:flex-start; flex-direction: column; text-align: center;
+        .A .card {min-width: 300px;   justify-content:; flex-direction: column; text-align: center;
             margin-left: 0; padding-left: 0%;
 
 
