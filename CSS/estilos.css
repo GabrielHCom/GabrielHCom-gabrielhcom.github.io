@@ -284,7 +284,7 @@ background-color: #1f4c68;
             width: 100%;
   
         }
-        .A .card {width:max-content;   justify-content: center; flex-direction: column; text-align: center;
+        .A .card {min-width: 300px;   justify-content: space-evenly; flex-direction: column; text-align: center;
 
 
         }
