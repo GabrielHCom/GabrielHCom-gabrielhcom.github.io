@@ -283,6 +283,7 @@ background-color: #1f4c68;
             justify-content: center ;
             width: 65%;
             padding-left: 0%; margin-left: 0;
+            flex-wrap: wrap;
 
   
         }
