@@ -216,7 +216,11 @@ background-color: #1f4c68;
           flex-direction: column;
         }
        
-        .conoceMas img {
+        .conoceMas .Img_texto { 
+            display: flex;
+            flex-direction: column;}
+        
+         .conoceMas img { width: 100%;
 
         }
       
@@ -293,7 +297,7 @@ background-color: #1f4c68;
 
         }
 
-        .conoceMas { 
+        .conoceMas .Img_texto { 
             display: flex;
             flex-direction: column;
           }
