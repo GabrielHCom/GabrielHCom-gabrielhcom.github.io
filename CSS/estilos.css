@@ -22,13 +22,13 @@ nav { background-color:  rgb(75, 74, 74);}
             height: 150%;
             margin: 0 ;    background-size: ;
             display: flex;
-            justify-content: flex-end;
+            justify-content: end;
             padding-top: 25%; padding-right: 80px;
         }
 
         .portada .textPortada {
             width: 70%;
-            text-align: center; padding-top: 180px; padding-right: 90px;
+            text-align: right; padding-top: 180px; padding-right: 10px;
         }
 
         .portada .botones {
