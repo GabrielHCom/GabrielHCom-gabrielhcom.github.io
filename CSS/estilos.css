@@ -28,7 +28,7 @@ nav { background-color:  rgb(75, 74, 74);}
 
         .portada .textPortada {
             width: 70%;
-            text-align: right; padding-top: 180px; padding-right: 90px;
+            text-align: center; padding-top: 180px; padding-right: 90px;
         }
 
         .portada .botones {
