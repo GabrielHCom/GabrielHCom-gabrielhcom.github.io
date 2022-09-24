@@ -293,7 +293,11 @@ background-color: #1f4c68;
 
         }
 
-      
+        .conoceMas { 
+            display: flex;
+            flex-direction: column;
+          }
+         
         .cont_formulario {
           width: 100%px;
         }
