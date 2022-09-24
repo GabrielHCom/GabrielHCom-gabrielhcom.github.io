@@ -1,0 +1,209 @@
+nav { background-color:  rgb(75, 74, 74);} 
+
+        nav a {text-align: center;}
+
+        .tamLogo {width: 80px; height: auto;}
+
+        .navbar .navbar-nav a:last-child{color: rgb(11, 221, 11);}
+
+
+        .portada {
+            background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/ba1.jpg);
+            background-size: cover;
+            opacity: black 5;
+            height: 700px;
+            color: white; font-weight: 400;    
+        }
+
+        .portada .container-flex {
+            width: 90%;
+            height: 100%;
+            margin: 0 ;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            padding-top: 25%;
+        }
+
+        .portada .textPortada {
+            width: 50%;
+            text-align: right; 
+        }
+
+        .portada .botones {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .portada .botones a {
+            color: rgb(248, 239, 239)
+        }
+        .portada .btn {
+            margin: 10px;
+            border-radius: 5px;
+            background-color: gray;
+        }
+
+        .portada .botonTickets {
+            background-color: green;
+        }
+
+        .A {width: 90%;
+    display: flex;
+    padding-left: 210px;
+}
+
+.A .card {
+    width: 30%;
+}
+    
+
+.P {padding: 5px;}
+
+
+.Tit_Oradores {
+    text-align: center;
+    margin-top: 10px;
+    }
+
+
+.card .Orador {
+    margin-top: 10px;
+    display: inline-flex;
+}
+
+.card .Orador h6 {
+    font-size: small ;
+    font-weight: 700;
+    padding: 5px;
+    padding-left: 10px;
+
+}
+
+.card h3 {
+    font-size: 30px;
+    padding-left: 10px; 
+}
+
+.card p {
+    font-size: 15px; padding: 15px;
+}    
+
+.card .Orador .B_Js {
+    background-color: yellow;
+    border-radius: 5px;
+    margin-left: 10px; margin-right: 10px;
+}
+
+.card .Orador .B_React {
+    background-color:rgb(24, 193, 245);
+    border-radius: 5px;
+}
+
+.card .Orador .B_Neg {
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px; margin-right: 10px;
+}
+
+.card .Orador .B_St {
+    background-color: rgb(182, 10, 47);
+    color: white;
+    border-radius: 5px;
+}
+
+
+
+
+
+.Img_texto {
+    display: flex;
+    margin-top: 5px;
+}
+
+.Img_texto img {
+    width: 50%;
+
+}
+
+.h2p_texto {
+    background-color: rgb(75, 74, 74);
+    color: white;
+    padding: 20px;
+    text-align: justify;
+}
+
+.boton_conoceMas {margin: 20px; padding: 10px;
+            border-radius: 5px;
+            background-color: rgb(75, 74, 74);
+        color: white; border: 1px solid white;
+        text-decoration: none;
+        }
+            
+
+        .charla {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: small;
+
+
+}
+
+.cont_formulario {
+    width: 50vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.Nombre {
+width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.inputN {
+    width: 48%;
+    padding: 7px ;
+    border-radius: 3px;
+    border: 1px solid gray;
+   
+
+}
+
+.AreaText
+{   width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    columns: 50; 
+}
+
+
+.boton_enviar {
+    width: 100%;
+    padding: 5px 0;
+    font-size: larger;
+    background-color: rgba(154, 231, 81, 0.8);
+    border: none;
+    font-weight:bolder; color: white;
+    border-radius: 3px;
+   }
+
+   .f_container {
+background-color: #1f4c68;
+    width: 100%;
+    height: 110px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.f_container a {color: aliceblue;
+    text-decoration: none}
