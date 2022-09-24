@@ -281,7 +281,7 @@ background-color: #1f4c68;
         .A {display: flex; 
             flex-direction: column;
             justify-content: center;
-            width: cover;
+            width: 100%;
   
         }
         .A .card {width:max-content;   justify-content: center; flex-direction: column; text-align: center;
