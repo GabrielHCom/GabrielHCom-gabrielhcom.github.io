@@ -288,6 +288,8 @@ background-color: #1f4c68;
 
         }
 
+        .card {justify-content: center;}
+
         .cont_formulario {
           width: 100%px;
         }
