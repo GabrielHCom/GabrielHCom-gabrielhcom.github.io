@@ -280,7 +280,7 @@ background-color: #1f4c68;
       
         .A {display: flex; 
             flex-direction: column;
-            justify-content: center ;
+            justify-content:left ;
             width: 65%;
             padding-left: 0%; margin-left: 0;
             flex-wrap: wrap;
